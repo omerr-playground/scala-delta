@@ -7,3 +7,4 @@ black==23.9.1
 
 # Spark and Delta Connect python proto generation plugin (optional)
 mypy-protobuf==3.3.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
